@@ -1,1 +1,18 @@
+################################################
+# IP-LIKEE
+# Curated by: Pejuang GSM
+# https://web.facebook.com/groups/PejuangGSM/
+# Last Update: 10 April 2021
+################################################
 
+/ip firewall address-list add address=169.136.76.0/24 comment="Likee" list=IP-UMUM
+/ip firewall address-list add address=169.136.77.0/24 comment="Likee" list=IP-UMUM
+/ip firewall address-list add address=169.136.78.0/24 comment="Likee" list=IP-UMUM
+/ip firewall address-list add address=169.136.79.0/24 comment="Likee" list=IP-UMUM
+/ip firewall address-list add address=169.136.96.0/24 comment="Likee" list=IP-UMUM
+/ip firewall address-list add address=169.136.98.0/24 comment="Likee" list=IP-UMUM
+/ip firewall address-list add address=169.136.102.0/24 comment="Likee" list=IP-UMUM
+/ip firewall address-list add address=169.136.106.0/24 comment="Likee" list=IP-UMUM
+/ip firewall address-list add address=169.136.107.0/24 comment="Likee" list=IP-UMUM
+/ip firewall address-list add address=164.90.114.0/24 comment="Likee" list=IP-UMUM
+/
