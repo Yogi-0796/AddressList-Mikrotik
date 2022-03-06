@@ -1,1 +1,105 @@
 
+################################################
+# IP-GGC-TELKOMSEL
+# Curated by: Pejuang GSM
+# https://web.facebook.com/groups/PejuangGSM/
+# Last Update: 3 Februari 2022
+################################################
+
+/ip firewall address-list add address=23.43.248.0/24 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=23.195.48.0/22 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=23.195.52.0/22 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=23.195.56.0/22 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=23.209.192.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=23.219.186.0/23 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=23.219.188.0/22 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=39.192.0.0/10 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=43.255.196.0/22 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=103.239.188.0/22 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.120.0.0/13 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.120.0.0/18 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.120.64.0/18 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.120.128.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.120.128.0/20 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.120.144.0/20 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.120.224.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.120.240.0/20 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.121.0.0/18 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.121.64.0/18 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.121.128.0/18 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.121.160.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.121.224.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.121.224.0/20 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.121.225.0/24 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.121.240.0/20 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.122.0.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.122.32.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.122.36.0/23 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.122.64.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.122.96.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.122.97.0/24 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.122.128.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.122.160.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.122.192.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.122.224.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.123.0.0/24 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.124.0.0/18 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.124.32.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.124.128.0/18 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.124.160.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.124.192.0/18 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.124.224.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.125.0.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.125.32.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.125.64.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.125.80.0/20 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.125.96.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.125.112.0/20 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.125.128.0/20 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.125.144.0/20 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.125.160.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.125.176.0/20 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.125.192.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.125.224.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.125.224.0/20 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.125.240.0/20 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.127.220.0/24 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.127.222.0/24 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.127.240.0/24 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.127.245.0/24 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=114.127.255.0/24 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.0.0.0/12 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.0.128.0/18 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.0.160.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.0.192.0/18 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.0.224.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.1.0.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.1.32.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.1.64.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.1.96.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.1.128.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.1.160.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.1.176.0/20 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.1.192.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.1.208.0/20 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.1.224.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.1.224.0/20 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.2.0.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.2.32.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.2.48.0/20 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.2.64.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.2.80.0/20 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.2.96.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.2.128.0/20 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.2.160.0/20 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.2.192.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.3.0.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.3.32.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.3.64.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.3.96.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.3.128.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.3.160.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.3.192.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=182.4.0.0/19 comment="GGC-TSEL" list=IP-UNLIMITED
+/ip firewall address-list add address=202.3.208.0/20 comment="GGC-TSEL" list=IP-UNLIMITED
+/
